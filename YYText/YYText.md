@@ -162,6 +162,6 @@ lines 搞清楚之后，我们再回去之前的 YYTextDrawShadow 中去：
 
 所以我们的阴影绘制就到此结束了！
 
-总结一下，YYLabel 先把阴影等效果保存在 attribtutedText 里的 attrributes，复写了 UIView 的 display 方法，在 display 中进行异步绘制，用 CoreText 框架得到 CTLine、CTRun 对象，从 CTRun 获取到 attributes，之后再根据 attributes 里的各属性，把 CTRun 对象绘制到 Context 中。
+总结一下，YYLabel 先把阴影等效果保存在 attribtutedText 里的 attrributes，复写了 UIView 的 display 方法，在 display 中进行异步绘制，用 CoreText 框架得到 CTLine、CTRun 对象，从 CTRun 获取到 attributes，之后再根据 attributes 里的各属性，用 CoreGraphics 框架把 CTRun 对象绘制到 Context 中。
 
 理解还是不够，等后续再来品读。不觉感叹 YY 实在太强了！今天理了理思路，让自己边写边读代码，不至于枯燥，同时供大家参考。得去睡觉了。。
