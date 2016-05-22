@@ -1,6 +1,6 @@
 ## YYText 是如何绘制的
 
-![qq20160523-0 2x](https://cloud.githubusercontent.com/assets/5022872/15455376/d31eac34-2084-11e6-9c05-11023120f5d5.jpg)
+![qq20160523-0 2x](https://cloud.githubusercontent.com/assets/5022872/15455376/d31eac34-2084-11e6-9c05-11023120f5d5.png)
 
 上面的阴影效果是用这样的代码实现的：
 
