@@ -39,7 +39,7 @@ preg_match_all("abc", "abcdabc", $matches)
 
 ![](./afterg.png)
 
-看右边。说第一个匹配中，即`div `，我们用第一个组的规则匹配的到`div`，然后用第7组的规则匹配的到了` `。
+看右边。说第一个匹配中，即`div `，我们用第一个组的规则匹配的到`div`，然后用第7组的规则匹配的到了空格` `。
 
 我们接着来看第一组规则的解释：
 
@@ -56,7 +56,7 @@ preg_match_all("abc", "abcdabc", $matches)
 
 那问题来了，不出现在结果中，那不用括号不就行了？括号是为了分组，分组还是很有意义的。可以参考 [《What is a non capturing group? (?:) -StackOverflow》](http://stackoverflow.com/questions/3512471/what-is-a-non-capturing-group)。
 
-接着讲完了`div` 满足第一组规则后，讲下` `为什么满足了第7组的规则。
+接着讲完了`div` 满足第一组规则后，讲下空格` `为什么满足了第7组的规则。
 
 ![](./seven.png)
 
