@@ -9,7 +9,9 @@
 
 ## 目录
 
-| Project | Article |
-|:-------:|:------: |
-|  YYText | [YYText 是如何绘制的](./YYText/YYText.md)        |
-|Random|[复杂正则表达式原来是纸老虎](./Regex/regex.md)|
+| Project | Article |GitBook
+|:-------:|:------: |:------:
+|YYText | [YYText 是如何绘制的](./YYText/YYText.md)|[GitBook](https://lzwjava.gitbooks.io/opensourcenotes/content/YYText/YYText.html)|
+|Random|[复杂正则表达式原来是纸老虎](./Regex/regex.md)|[GitBook](https://lzwjava.gitbooks.io/opensourcenotes/content/Regex/regex.html)|
+
+Read in [GitBook](https://www.gitbook.com/book/lzwjava/opensourcenotes/details).
