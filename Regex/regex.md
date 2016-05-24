@@ -35,7 +35,7 @@ preg_match_all("abc", "abcdabc", $matches)
 
 说是加了 g 的话，会去匹配所有，而不是匹配到第一个就早早返回了。
 
-加了之后。我们匹配到了`div > `：
+加了之后。我们匹配到了`div > ul `：
 
 ![](./afterg.png)
 
